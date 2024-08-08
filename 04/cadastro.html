@@ -7,23 +7,23 @@
 </head>
 <body>
     <form >
-        Login: <br>
+        Login *: <br>
         <input type="text" required name="Login"><br>
 
         Senha: <br>
         <input type="password" name="Senha"><br>
         Confirme a Senha: <br>
-        <input type="password" name="Senha"><br>
+        <input type="password" name="Confirme senha"><br>
 
-        Name: <br>
-        <input type="text" name="name"><br>
+        Nome: <br>
+        <input type="text" name="nome"><br>
 
         Sexo: <br>
         <input type="radio" value="Masculino" name="Sexo">Masculino <br>
         <input type="radio" value="Feminino" name="Sexo">Feminino <br>
         
         Emil: <br>
-        <input type="text" required name="Emil"> <br>
+        <input type="email" required name="Emil"> <br>
         Interesses brasil: <br>
         <input type="checkbox" value="Neymar" name="Intersses">Neymar <br>
         <input type="checkbox" value="Ronaldinho Gaúcho" name="Intersses"> Ronaldinho Gaúcho <br>
@@ -46,9 +46,10 @@
 <textarea name="Observações" id="NEYMAR" cols="30">
 </textarea> <br>
 
-<form action="http://191.252.62.149:8080/pweb/salvar.jsp">
-</form action="endereco_do_backend" >
-<input type="submit" value="enviar">
+<form action="endereco_do_backend">
+</form action="http://191.252.62.149:8080/pweb/salvar.jsp" method= "GET"></form>
+<form action="http://191.252.62.149:8080/pweb/salvar.jsp" method="POST"></form>
+<input type="submit" value="Enviar">
 <a href="../index.html">>>>>>VOLTAR<<<<<</a>
 
 
