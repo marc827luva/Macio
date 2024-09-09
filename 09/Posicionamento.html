@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POSICIONAMENTO</title>
+    <style type="text/css">
+        body{
+            background: rgb(76, 159, 170);
+        }
+        #Conteudor{
+            background: firebrick;
+            padding: 10px;
+            width: 900px;
+            margin: 30px;
+        }
+        .caixa{
+            background: gold;
+            margin: 10px;
+            width: 100px;
+            height: 100px;
+            color: royalblue;
+        }
+        #Relativo{
+            position: relative;
+            left: 30px;
+        }
+        #Absoluto{
+            position: absolute;
+            left: 30px;
+        }
+        #Fixo{
+            position: fixed;
+            left: 200px;
+            top: 0px;
+        }
+        a{
+            margin: 450px;
+        }
+    </style>
+</head>
+<body>
+    <span>Container body</span>
+    <div id="Conteudor">
+        Container DIV
+        <div id="Relativo" class="caixa">
+            Relativo
+        </div>
+        <div id="Absoluto" class="caixa">
+            Absoluto
+        </div>
+        <div id="Fixo" class="caixa">
+            Fixo
+        </div>
+    </div>
+
+<a href="../index.html">>>>>VOLTAR<<<<</a>    
+</body>
+</html>
