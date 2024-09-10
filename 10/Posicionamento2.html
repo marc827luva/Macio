@@ -1,47 +1,85 @@
+
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Marcio lucas</title>
-    <style type="text/css">
-        body{
-            margin: 0;
+    <title>Layout Flexbox</title>
+    <style>
+        
+		body{
+			 margin: 0; 
+			
+		}
+		
+	    .container {
+			height: 500px; 
+          
         }
-        #Conteudor2{
-            padding: 10px;
-            width: 900px;
-            margin: 30px;
-        }
-        #MarcioLucas{
+		
+		.header {
             background-color: lightblue;
-            position: relative;
-            width: 990px;
-            height: 30px;
             text-align: center;
-            margin: 30px;
+            width: 100%;
+            height: 60px; 
         }
-        #hadryan{
+		
+		.left, .right {
             background-color: lightcoral;
-            width: 500px;
-            height: 200px;
-            display: grid;
-            place-content: center;
+            text-align: center;
+            width: 25%;
+			float:left;
+			height: 400px; 
+        }	
+		
+		.center {
+		    background-color: lightgreen;
+			text-align: center;
+            width: 50%;
+			float:left;
+			height: 400px; 
         }
+		
+		.footer {
+		    background-color: lightpink;
+			text-align: center;
+            width: 100%;
+			float:left;
+			height: 100px; 
+        }
+
+
+		
+ 
+   
     </style>
 </head>
 <body>
-<h1>OLHA EXEMPLO</h1>
-<div id="Conteudor2">
-    Container DIV
-    <div id="MarcioLucas" class="caixa1">
-        Marcio lucas
-    </div>
-    <div id="hadryan" class="caixa1">
-        hadryan
-    </div>
-</div>
 
-<a href="../index.html"> vai lá</a>
+
+    <div class="container">
+	
+	    <div class="header">
+        Marcio lucas
+		</div>
+
+	
+        <div class="left">
+           Hadryan
+        </div>
+        <div class="center">
+            wallysson
+        </div>
+        <div class="right">
+            Gabierl
+        </div>
+		
+	
+		<div class="footer">
+	        olá
+	    </div>
+		
+    </div>
+    <a href="../index.html">voltarr</a>
 </body>
 </html>
